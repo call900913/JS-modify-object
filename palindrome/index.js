@@ -8,6 +8,17 @@ String.prototype.reverse = function reverse() {
 function Phrase(content) {
   this.content = content
 
+  this.getletters = function getletters() {
+    let letters = Array.from(this.content).map( (member) => {
+      if (member.match(/[a-zA-Z]/)) {
+        return member
+      } else {
+        return ""
+      }
+    })
+    return letters.join("")
+  }
+
   this.lowerCase = function (str) {
     return str.toLowerCase()
    }
