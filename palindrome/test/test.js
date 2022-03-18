@@ -10,8 +10,7 @@ describe("Phrase", function() {
       assert(!notaPalin.palindrome());
     })
 
-    it("should return true for a simple palindrome", function() {
-      let simplePalin = new Phrase("racecar");
+
       assert(simplePalin.palindrome());     
     })
 
@@ -20,7 +19,21 @@ describe("Phrase", function() {
       assert(mixedCasePalin.palindrome())
     })
 
+    it("should return true for a palindrome in spite of punctuations", function() {
+      let puncPalin = new Phrase("Madam, I'm Adam.")
+      assert(puncPalin.palindrome())
+
+    })
 
   })  
+
+  describe("#getletters", function() {
+
+    it("should return just the letters", function() {
+      let puncpalin = new Phrase("Madam, I'm Adam.")
+      assert(puncPalin.getletters(), "MadamImAdam");
+    })
+
+  })
 
 })
