@@ -19,12 +19,8 @@ function Phrase(content) {
     return letters.join("")
   }
 
-  this.lowerCase = function (str) {
-    return str.toLowerCase()
-   }
-
   this.palindromeTestString = function palindromeTestString() {
-    return this.lowerCase(this.content)
+    return this.getletters().toLowerCase() 
   }
 
   this.palindrome = function() {
