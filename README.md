@@ -1,6 +1,6 @@
 # LISEZMOI
 
-Part of my Vim practice. Add the palindrome method to the String object so that you can call it like so:
+Part of my Vim practice. I added the palindrome method to the JS String object so that you can call it like so:
 
 ```
 >"racecar".palindrome()
