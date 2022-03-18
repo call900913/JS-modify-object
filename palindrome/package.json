@@ -1,0 +1,16 @@
+{
+  "name": "palindrome",
+  "version": "1.0.0",
+  "description": "Test whether a string is a palindrome.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "palindrome",
+    "js",
+    "javascript"
+  ],
+  "author": "call900913",
+  "license": "ISC"
+}
