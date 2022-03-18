@@ -7,7 +7,7 @@ Part of my Vim practice. I added the palindrome method to the JS String object s
 >true
 ```
 
-As of this writing, the function is limited to strings without punctuations.
+When the string contains punctuations, the palindrome() method will look only at the letters.
 
 ## Folders and Tests
 The .js files that are inside folders have mocha tests. 
