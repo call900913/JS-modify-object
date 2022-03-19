@@ -1,4 +1,5 @@
 # Elba the Palindrome Detector 
+[![NPM](https://nodei.co/npm/elba-palindrome-detector.png?compact=true)](https://npmjs.org/package/elba-palindrome-detector)
 
 Originally, I began writing this only to practice Vim. However, after a few days, I decided to publish it to NPM: 
 [https://www.npmjs.com/package/elba-palindrome-detector](https://www.npmjs.com/package/elba-palindrome-detector)
