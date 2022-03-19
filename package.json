@@ -1,0 +1,16 @@
+{
+  "name": "palindrome-detector",
+  "version": "1.0.0",
+  "description": "Test whether the input is a palindrome.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "palindrome",
+    "js",
+    "javascript"
+  ],
+  "author": "call900913",
+  "license": "ISC"
+}
