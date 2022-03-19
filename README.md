@@ -12,7 +12,7 @@ When the string contains punctuations, the palindrome() method will look only at
 ## Folders and Tests
 The .js files that are inside folders have mocha tests. 
 
-Before running those tests, run the following in your Terminal: 
+Before running those tests, ensure you have Mocha in your system:
 ```
 npm install --global mocha
 ```
