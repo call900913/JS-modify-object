@@ -9,6 +9,7 @@ function Phrase(content) {
   this.content = content
 
   this.getletters = function getletters() {
+    /*
     let letters = Array.from(this.content).map( (member) => {
       if (member.match(/[a-zA-Z]/)) {
         return member
@@ -17,6 +18,8 @@ function Phrase(content) {
       }
     })
     return letters.join("")
+    */
+    return Array.from(this.content).filter( l => l.match(/[a-z]/i)).join("")
   }
 
   this.palindromeTestString = function palindromeTestString() {
