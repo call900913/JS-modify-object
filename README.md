@@ -12,7 +12,9 @@ Here I added the palindrome method to the JS String object so that you can call 
 When the string contains punctuations, the palindrome() method will look only at the letters.
 
 ## Folders and Tests
-The .js files that are inside folders have mocha tests. 
+The index.js file is inside the palindrome folder.
+
+That folder also contains tests.
 
 Before running those tests, ensure you have Mocha in your system:
 ```
