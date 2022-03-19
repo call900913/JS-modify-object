@@ -1,4 +1,4 @@
-# LISEZMOI
+# Elba the Palindrome Detector 
 
 Originally, I began writing this only to practice Vim. However, after a few days, I decided to publish it to NPM: 
 [https://www.npmjs.com/package/elba-palindrome-detector](https://www.npmjs.com/package/elba-palindrome-detector)
@@ -22,3 +22,5 @@ Before running those tests, ensure you have Mocha in your system:
 npm install --global mocha
 ```
 
+## Contributing
+If you see something that bugs your eye in this module, let me know and let's fix it.
