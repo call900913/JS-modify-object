@@ -1,7 +1,7 @@
 {
-  "name": "Elba: A Palindrome Detector",
-  "version": "1.0.1",
-  "description": "Elba accepts string and returns a true/false whether that string is a palindrome."
+  "name": "elba-palindrome-detector",
+  "version": "1.0.2",
+  "description": "Elba is a palindrome detector. It accepts string and returns a true/false whether that string is a palindrome.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
