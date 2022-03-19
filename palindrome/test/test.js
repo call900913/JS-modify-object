@@ -35,6 +35,10 @@ describe("Phrase", function() {
       assert(puncPalin.getletters(), "MadamImAdam");
     })
 
+    it("should return empty string for string comprising only of numbers", function () {
+      let numberString = '123'
+      assert(numberString.getletters(), "")
+    })
   })
 
 })
