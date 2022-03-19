@@ -1,6 +1,6 @@
 # LISEZMOI
 
-Originally, I began writing this only to practice Vim. However, after a few days, I decided to publish it to NPM. 
+Originally, I began writing this only to practice Vim. However, after a few days, I decided to publish it to NPM: 
 [https://www.npmjs.com/package/elba-palindrome-detector](https://www.npmjs.com/package/elba-palindrome-detector)
 
 Here I added the palindrome method to the JS String object so that you can call it like so:
