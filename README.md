@@ -28,6 +28,6 @@ If you don't have Node installed, go here: [https://nodejs.org/en/download/](htt
 ```
 npm install elba-palindrome-detector
 ```
-`
+
 ## Contributing
 If you something that can be improved, let me know and let's fix it.
