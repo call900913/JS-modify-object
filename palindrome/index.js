@@ -19,7 +19,8 @@ function Phrase(content) {
     })
     return letters.join("")
     */
-    return Array.from(this.content).filter( l => l.match(/[a-z]/i)).join("")
+    // return Array.from(this.content).filter( l => l.match(/[a-z]/i)).join("")
+    return (this.content.match(/[a-z]/gi) || []).join("")
   }
 
   this.palindromeTestString = function palindromeTestString() {

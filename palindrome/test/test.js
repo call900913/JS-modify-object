@@ -31,13 +31,13 @@ describe("Phrase", function() {
   describe("#getletters", function() {
 
     it("should return just the letters", function() {
-      let puncPalin = new Phrase("Madam, I'm Adam.")
-      assert(puncPalin.getletters(), "MadamImAdam");
+      let puncPalin = new Phrase("Madam, I'm Adam.");
+      assert.strictEqual(puncPalin.getletters(), "MadamImAdam");
     })
 
-    it("should return empty string for string comprising only of numbers", function () {
-      let numberString = '123'
-      assert(numberString.getletters(), "")
+    it("should return empty string for string comprising only of numbers", function() {
+      let numberString = new Phrase("123");
+      assert.strictEqual(numberString.getletters(), "");
     })
   })
 
