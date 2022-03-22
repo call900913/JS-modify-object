@@ -30,4 +30,4 @@ npm install elba-palindrome-detector
 ```
 
 ## Contributing
-If you something that can be improved, let me know and let's fix it.
+If you see something that can be improved, let me know and let's fix it.
